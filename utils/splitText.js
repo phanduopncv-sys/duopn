@@ -1,0 +1,1 @@
+export const splitText=(t,m=2500)=>{let p=[];for(let i=0;i<t.length;i+=m)p.push(t.substring(i,i+m));return p};
